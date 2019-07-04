@@ -1,0 +1,22 @@
+li{
+    list-style: none;
+    display: inline-block;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li a{
+    text-decoration: none;
+    margin: 0px 30px;
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
