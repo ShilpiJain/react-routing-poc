@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <div>
            <ul>
-            {/* 1. link stops server request  */}
+            {/* 1. link browser reload */}
             {/* <li><Link to="/">Home</Link></li>
             <li><Link to="/about">about</Link></li>
             <li><Link to="/contact">Contact</Link></li> */}
