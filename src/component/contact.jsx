@@ -2,9 +2,9 @@ import React from 'react'
 
 const Contact = (props) => {
     // console.log(props);
-    setTimeout(() => {
-        props.history.push('/about');
-    }, 2000);
+    // setTimeout(() => {
+    //     props.history.push('/about');
+    // }, 2000);
     return (
         <div>
             <h1 className="text-center">Contact US</h1>
