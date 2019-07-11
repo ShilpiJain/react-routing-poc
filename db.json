@@ -1,0 +1,60 @@
+{
+    "getProgressPanelData": {
+        "status": 200,
+        "data": {
+            "progress": {
+                "target": 1000,
+                "target_completed": 600
+            },
+            "duration": {
+                "date_range": "26/04 - 03/05",
+                "total": 1000,
+                "total_completed": 700
+            },
+            "on_going": {
+                "time": "2PM - 3PM",
+                "total": 200
+            },
+            "previous_hour": {
+                "time": "1PM - 2PM",
+                "total": 300
+            }
+        }
+    },
+    "goals": {
+        "status": 200,
+        "length": 20,
+        "data": [
+            {
+                "goal_id": "11",
+                "goal_name": "FGVGE Appointment Target - Globiva (G1)",
+                "cc_name": "Globiva",
+                "campaign": "FGVGE"
+            },
+            {
+                "goal_id": "12",
+                "goal_name": "FGVGE Appointment Target - Globiva (G2)",
+                "cc_name": "Kocher",
+                "campaign": "FGVGE"
+            },
+            {
+                "goal_id": "13",
+                "goal_name": "FGVGE Appointment Target - Globiva (G3)",
+                "cc_name": "Globiva",
+                "campaign": "FGVGE"
+            },
+            {
+                "goal_id": "14",
+                "goal_name": "FGVGE Appointment Target - Globiva (G4)",
+                "cc_name": "Kocher",
+                "campaign": "FGVGE"
+            },
+            {
+                "goal_id": "15",
+                "goal_name": "FGVGE Appointment Target - Globiva (G5)",
+                "cc_name": "Gloviva",
+                "campaign": "FGVGE"
+            }
+        ]
+    }
+}

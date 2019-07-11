@@ -6,7 +6,7 @@ class Home extends React.Component{
         posts : []
     }
     componentDidMount(){
-        axios.get("http://localhost:3002/goals")
+        axios.get("http://localhost:3004/goals")
         .then(res => {
             let innerPosts = res.data;
             console.log(innerPosts.data);
