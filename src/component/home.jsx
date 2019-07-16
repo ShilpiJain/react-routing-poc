@@ -25,7 +25,7 @@ class Home extends React.Component {
             posts.map( post => {
                 return (
                     <div className="post-card" key={post.id}>
-                        Name :- <Link to={"/" + post.id}>
+                        Name :- <Link to={"/posts/" + post.id}>
                             {post.id}
                         </Link><br/>
                         Tittle :- {post.title}<br/>
