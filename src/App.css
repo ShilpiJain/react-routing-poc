@@ -24,3 +24,10 @@ ul li a{
     color: black;
     text-align: center;
 }
+.post-card img{
+    max-width: 155px;
+    margin-bottom: 10px;
+}
+.post-card {
+    display: flex;
+}

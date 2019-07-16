@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-
+import leftIcon from "../left.jpg"
 class Home extends React.Component {
     state = {
         posts : []
@@ -25,7 +25,8 @@ class Home extends React.Component {
             posts.map( post => {
                 return (
                     <div className="post-card" key={post.id}>
-                        Name :- <Link to={"/posts/" + post.id}>
+                        <img src={leftIcon} alt="left"/>
+                        Name :- <Link to={"/posts/" + post.id}><br/>
                             {post.id}
                         </Link><br/>
                         Tittle :- {post.title}<br/>
